@@ -56,7 +56,7 @@ def TrackImages():
     date = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d')
     timeStamp = datetime.datetime.fromtimestamp(ts).strftime('%H:%M:%S')
     Hour,Minute,Second=timeStamp.split(":")
-    fileName="Attendance/date"+os.sep+"Attendance_"+date+"_"+Hour+"-"+Minute+"-"+Second+".csv"
+    fileName="Attendance"+os.sep+"Attendance_"+date+"_"+Hour+"-"+Minute+"-"+Second+".csv"
     attendance.to_csv(fileName,index=False)
     cam.release()
     cv2.destroyAllWindows()
