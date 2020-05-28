@@ -7,6 +7,7 @@ Created on Sun May 24 19:49:36 2020
 """
 
 from tkinter import *
+import os
 
 root = Tk()
 root.geometry('500x500')
