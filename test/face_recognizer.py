@@ -39,7 +39,7 @@ def get_images_and_labels(path):
     return images, labels
 
 # Path to the Yale Dataset
-path = './yalefaces'
+path = '/home/ritik/Desktop/miniproject/attendence-master/test/yalefaces'
 # Call the get_images_and_labels function and get the face images and the 
 # corresponding labels
 images, labels = get_images_and_labels(path)
